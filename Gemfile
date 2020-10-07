@@ -10,6 +10,7 @@ gem 'sqlite3', '~>1.3.6'
 gem 'thin'
 gem 'shotgun'
 gem 'pry'
+gem 'bcrypt', '~> 3.1', '>= 3.1.16'
 
 group :test do
   gem 'launchy'
