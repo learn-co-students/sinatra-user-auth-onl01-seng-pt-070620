@@ -1,2 +1,15 @@
 <h1>Log In Below:</h1>
-
+   <form action='/sessions' method="post"> # Match action to a POST request when thinking about how to set the action
+  <ul>
+    <li>
+      <label for="email">Email</label>
+      <input id="email" type="text" name="email" />
+    </li>
+    <li>
+      <label for="password">Password</label>
+      <textarea id="password" type="text" name="password">
+      </textarea>
+    </li>
+  </ul>
+  <input type="submit" value="Log In"/>
+</form>
